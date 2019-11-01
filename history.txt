@@ -1,0 +1,70 @@
+    1  pwd
+    2  ls
+    3  mkdir git-basic-exercises
+    4  cd git-basic-exercises
+    5  ls -a
+    6  git init
+    7  sudo apt install git
+    8  git init
+    9  git status
+   10  touch README.md
+   11  git status
+   12  ls -a git status
+   13  ls -a && git status
+   14  git log
+   15  git add .
+   16  git status
+   17  git commit -m "initial commit"
+   18  git config --global user.email "tshidiso.khoza@gmail.com"
+   19  git config --global user.name "tshidisokhoza"
+   20  git status
+   21  git rm --cached README.md
+   22  git status
+   23  git commit -m "initial commit"
+   24  git add README.md 
+   25  git commit -m "initial commit"
+   26  git log
+   27  git config "tshidiso.khoza@umuzi.org"
+   28  git log
+   29  git config --global user.email "tshidiso.khoza@umuzi.org"
+   30  git log
+   31* git config user.email "tshidiso.khoza@umuzi.org"
+   32  git log
+   33  nano git long
+   34  q
+   35  nano README.md 
+   36  cat README.md 
+   37  git status
+   38  git add README.md 
+   39  git commit -m "Second Commit"
+   40  nano README.md 
+   41  git add README.md 
+   42  git commit -m "Third Commit"
+   43  git log
+   44  q
+   45  git checkout 
+   46  cat README.md 
+   47  git checkout master 
+   48  cat README.md 
+   49  git branch
+   50  git branch milkshake-flavours
+   51  git branch
+   52  git status
+   53  git checkout milkshake-flavours
+   54  git branch
+   55  nano milkshakes.md
+   56  cat milkshakes.md 
+   57  git status
+   58  git commit -m "added initial flavours"
+   59  git add milkshakes.md 
+   60  git commit -m "added initial flavours"
+   61  git log
+   62  git branch checkout 
+   63  git branch
+   64  chckout
+   65  git checkout master
+   66  git branch history
+   67  git branch
+   68  git checkout history
+   69  git log
+   70  history > history.txt
